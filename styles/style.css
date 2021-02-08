@@ -1,0 +1,156 @@
+
+		 *{
+			 box-sizing: 
+				border-box;
+		  }
+		  /* fonts */
+
+
+
+		  body, html {
+    		height: 100%;
+			font-family: Arial;
+			/* padding: 10px; */
+
+		  }
+		  
+		  .header {
+			padding: 30px;
+			text-align: center;
+			
+		  }
+		  
+		  .header h1 {
+			font-size: 50px;
+		  }
+
+		   .quote-background{
+			background-image: url("./img/header.jpeg");
+			/* background-size: 100%; */
+			height: 50%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			}
+		
+		  .quote-block{
+			display: flex;
+			/* padding: 50px 0 50px 0; */
+			/* background-color: cadetblue;
+			opacity: 0.2; */
+			/* height: 100%;
+			width: 100%; */
+			align-items:center;
+			justify-content: center;
+
+		}
+
+		  .quote-text{
+			padding: 0 100px 0 100px;
+			/* width: 80%; */
+			color:#22223B;
+			font-style: italic;
+		} 
+
+
+		  .topnav {
+			overflow: hidden;
+			background-color: #5c237d;
+		  }
+		  
+		  
+		  .topnav a {
+			float: left;
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: 10px;
+		  }
+		  
+		 
+		  .topnav a:hover {
+			background-color: #9464b0;
+			color: black;
+		  }
+		  
+		 
+		  .leftcolumn {   
+			float: left;
+			width: 75%;
+		  }
+		  
+		 
+		  .rightcolumn {
+			float: left;
+			width: 25%;
+		
+			padding-left: 20px;
+		  }
+		  
+		  
+		  .fakeimg {
+			background-color: #aaa;
+			width: 100%;
+			padding: 20px;
+		  }
+		  
+		  
+		  .card {
+			background-color: #c1b1c9;
+			padding: 20px;
+			margin-top: 20px;
+		  }
+		  
+
+		  .row:after {
+			content: "";
+			display: table; 
+			clear: both;
+		  }
+		
+
+		  .footer {
+			padding: 10px;
+			text-align: center;
+			background: #c1b1c9;
+			margin-top: 20px;
+		  }
+		  
+		
+		  @media screen and (max-width: 800px) {
+			.leftcolumn, .rightcolumn {   
+			  width: 100%;
+			  padding: 0;
+			}
+		  }
+		  
+		  
+		  @media screen and (max-width: 400px) {
+			.topnav a {
+			  float: none;
+			  width: 100%;
+			}
+		  }
+		 
+
+
+/* Button */
+
+.bookingContainer{
+	display: flex;
+	justify-content: center;
+  
+  }
+  .bookingButton{
+	color: #953c68;
+	background-color:  rgba(0, 0, 0, 0.);
+	text-align: center;
+	position: relative;
+  
+	font-size: 20px;
+	padding: 0.5rem 5rem 0.5rem 5rem;
+	border: none;
+	cursor: pointer;
+  }
