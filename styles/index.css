@@ -1,0 +1,23 @@
+header {
+  padding: 30px;
+  text-align: center;
+  background: #953c68;
+  color: white;
+  font-size: 30px;
+}
+.bookingContainer{
+  display: flex;
+  justify-content: center;
+
+}
+.bookingButton{
+  color: blue;
+  background-color:  rgba(0, 0, 0, 0.);
+  text-align: center;
+  position: relative;
+
+  font-size: 20px;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  border: none;
+  cursor: pointer;
+}
