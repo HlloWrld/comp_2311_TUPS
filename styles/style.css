@@ -5,13 +5,19 @@
 		  }
 		  /* fonts */
 
-
+			.card1{
+				background-image: url("/img/front.jpeg");
+				height: 600px;
+				width: 1000px;
+				margin-left: 100px;
+				margin-top: 20px;
+				
+			}
 
 		  body, html {
     		height: 100%;
-			font-family: Arial;
+				
 			/* padding: 10px; */
-
 		  }
 		  
 		  .header {
@@ -23,7 +29,9 @@
 		  .header h1 {
 			font-size: 50px;
 		  }
-
+			h1, h2, h3, header {
+			font-family: 'Oswald', sans-serif;
+			}
 		   .quote-background{
 			background-image: url("./img/header.jpeg");
 			/* background-size: 100%; */
@@ -32,6 +40,7 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			position: relative;
+			background-color: #953c68;
 			}
 		
 		  .quote-block{
@@ -51,6 +60,7 @@
 			/* width: 80%; */
 			color:#22223B;
 			font-style: italic;
+			font-family: 'Quattrocento', serif;
 		} 
 
 
@@ -63,12 +73,13 @@
 		  .topnav a {
 			float: left;
 			display: block;
-			color: black;
+			color: white;
 			text-align: center;
 			padding: 14px 16px;
 			text-decoration: 10px;
 		  }
 		  
+			
 		 
 		  .topnav a:hover {
 			background-color: #9464b0;
@@ -89,6 +100,9 @@
 			padding-left: 20px;
 		  }
 		  
+			.logo {
+				margin: 20px;
+			}
 		  
 		  .fakeimg {
 			background-color: #aaa;
